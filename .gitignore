@@ -1,1 +1,17 @@
-_tmp.md
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# nx monorepo generated files #
+######################
+.nx/installation
+.nx/cache
+.nx/workspace-data
+
+_tmp
+_wip
