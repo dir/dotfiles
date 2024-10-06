@@ -36,7 +36,7 @@ log() {
         printf '%s%s%s%s\n' "$timestamp" "$(style "$log_type")" "$message" "$(style reset)"
     else
         # If no log type is provided, print the message without styling
-        printf '%s%s\n' "$timestamp" "$message"
+        printf '%s%s%s\n' "$timestamp" "$message" "$(style reset)"
     fi
 }
 
