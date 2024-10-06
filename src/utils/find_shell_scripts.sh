@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Recursively find shell scripts in a given directory
+# Recursively find all shell scripts in a given directory
 # by shebang line (#!/bin/sh, #!/bin/bash, etc.)
 find_shell_scripts() {
     if [ $# -eq 0 ]; then
